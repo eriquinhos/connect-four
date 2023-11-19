@@ -6,12 +6,11 @@ BLACK = (0, 0, 0)
 TURQUOISE = (43, 189, 179)
 PINK = (173, 14, 88)
 PURPLE = (126, 14, 173)
-SQUARE_SIZE = 100
+SQUARE_SIZE = 60
 WIDTH = bd.COL_NUMBER * SQUARE_SIZE
 HEIGHT = (bd.ROW_NUMBER + 1) * SQUARE_SIZE
 SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
 RADIUS = int((SQUARE_SIZE / 2) - 5)
-
 
 def draw_board(board=np.zeros((bd.ROW_NUMBER, bd.COL_NUMBER))):
     for col in range(bd.COL_NUMBER):

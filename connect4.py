@@ -10,7 +10,7 @@ turn = 0
 
 pygame.init()
 
-game_font = pygame.font.SysFont('montserrat', 75)
+game_font = pygame.font.SysFont('montserrat', 56)
 
 graphics.draw_board(board)
 pygame.display.update()
@@ -47,7 +47,7 @@ while not game_over:
                     game_over = True
 
             graphics.draw_board(board)
-            bd.print_board(board)
+            # bd.print_board(board)
             turn = (turn + 1) % 2
 
             if game_over:

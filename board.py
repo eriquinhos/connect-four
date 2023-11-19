@@ -1,8 +1,8 @@
 import numpy as np
 
-ROW_NUMBER = 6
-COL_NUMBER = 12
-CONNECT = 4
+ROW_NUMBER = 9
+COL_NUMBER = 11
+CONNECT = 6
 
 
 # Board functions
