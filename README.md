@@ -1,2 +1,7 @@
-# connect-four
- Connect 4 game using pygame
+# Conecte 4 com PyGame | Connect 4 with PyGame
+
+Este código foi baseado nos [vídeos](https://youtu.be/UYgyRArKDEs?si=2EdchZQR-YndkcPI) do Keith Galli programando um jogo Conecte 4 utilizando o PyGame. Entretanto, algumas otimizações foram feitas no código de maneira a deixá-lo modularizado e também mais simples. Ademais, modificando apenas alguns parâmetros no módulo [board.py](https://github.com/eriquinhos/connect-four/blob/main/board.py), tal como ROW_NUMBER e COL_NUMBER, pode-se modificar o tamanho do tabuleiro, devendo, para isso, ajustar o tamanho do quadrado SQUARE_SIZE proporcionalmente no módulo [graphics.py](https://github.com/eriquinhos/connect-four/blob/main/graphics.py). Nesse caso, caso se queira um tabuleiro com o dobro do tamanho, deve-se diminuir o tamanho do quadrado pela metade, pois são inversamente proporcionais. Por fim, modificando a variável CONNECT também se pode dificultar o jogo, fazendo com que o jogador formar uma linha maior, com 5 ou mais peças, a fim de ganhar o jogo.
+
+<hr/>
+
+This code was based on Keith Galli's [videos](https://youtu.be/UYgyRArKDEs?si=2EdchZQR-YndkcPI) programming a Connect 4 game using PyGame. However, some optimizations have been made to the code to make it modular and simpler. Additionally, by modifying only a few parameters in the [board.py](https://github.com/eriquinhos/connect-four/blob/main/board.py) module, such as ROW_NUMBER and COL_NUMBER, you can change the size of the board. To do this, adjust the size of the square SQUARE_SIZE proportionally in the [graphics.py](https://github.com/eriquinhos/connect-four/blob/main/graphics.py) module. In this case, if you want a board twice the size, you should halve the size of the square, as they are inversely proportional. Finally, by modifying the CONNECT variable, you can also make the game more challenging by requiring the player to form a longer line, with 5 or more pieces, to win the game.
