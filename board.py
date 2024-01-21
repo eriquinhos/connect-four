@@ -2,7 +2,7 @@ import numpy as np
 
 ROW_NUMBER = 9
 COL_NUMBER = 11
-CONNECT = 6
+CONNECT = 4
 
 
 # Board functions
